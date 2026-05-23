@@ -5,11 +5,11 @@
 **تطبيق إسلامي شامل لنشر ذكر الله**  
 **A Comprehensive Islamic App for Spreading the Remembrance of Allah**
 
-[![HTML](https://img.shields.io/badge/HTML-5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS](https://img.shields.io/badge/CSS-3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Firebase](https://img.shields.io/badge/Firebase-10.8-FFCA28?logo=firebase&logoColor=black)](https://firebase.google.com/)
-[![PWA](https://img.shields.io/badge/PWA-Ready-5A0FC8?logo=pwa&logoColor=white)](https://web.dev/progressive-web-apps/)
+[![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com/)
+[![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat&logo=pwa&logoColor=white)](https://web.dev/progressive-web-apps/)
 
 </div>
 
@@ -23,7 +23,7 @@
 
 ### ✨ المميزات الرئيسية
 
-- 🕌 **أذكار الصباح والمساء والنوم** — مجموعة شاملة من الأذكار النبوية الصحيحة مع عداد تفاعلي لكل ذكر وتتبع ل حالة الإتمام
+- 🕌 **أذكار الصباح والمساء والنوم** — مجموعة شاملة من الأذكار النبوية الصحيحة مع عداد تفاعلي لكل ذكر وتتبع لحالة الإتمام
 - 📿 **عداد التسبيح** — عداد رقمي بتأثيرات صوتية واهتزاز مع 18 ذكراً مختلفاً للاختيار من بينها
 - 📖 **القرآن الكريم** — تصفح القرآن الكريم مباشرة من داخل التطبيق
 - 🕐 **مواقيت الصلاة** — عرض مواقيت الصلاة حسب الموقع
@@ -43,14 +43,13 @@
 
 | التقنية | الاستخدام |
 |---------|-----------|
-| HTML5 | هيكل الصفحات |
-| CSS3 | التصميم والأنماط والتأثيرات |
-| JavaScript (ES6+) | المنطق البرمجي والتفاعلية |
-| Firebase Auth | مصادقة المستخدمين (Google + Phone) |
-| Firebase Firestore | قاعدة البيانات السحابية |
-| Service Worker | دعم PWA والإشعارات |
-| Font Awesome | الأيقونات |
-| Google Fonts (Tajawal) | الخط العربي |
+| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) | هيكل الصفحات |
+| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) | التصميم والأنماط والتأثيرات |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) | المنطق البرمجي والتفاعلية |
+| ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black) | المصادقة وقاعدة البيانات السحابية |
+| ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat&logo=pwa&logoColor=white) | تطبيق ويب تقدمي وإشعارات |
+| ![Font Awesome](https://img.shields.io/badge/Font_Awesome-528DD7?style=flat&logo=fontawesome&logoColor=white) | الأيقونات |
+| ![Google Fonts](https://img.shields.io/badge/Google_Fonts-4285F4?style=flat&logo=googlefonts&logoColor=white) | الخط العربي (Tajawal) |
 
 ### 📁 هيكل المشروع
 
@@ -115,14 +114,13 @@ Zad-Ziad/
 
 | Technology | Usage |
 |------------|-------|
-| HTML5 | Page structure |
-| CSS3 | Styling, layouts, and animations |
-| JavaScript (ES6+) | Logic and interactivity |
-| Firebase Auth | User authentication (Google + Phone) |
-| Firebase Firestore | Cloud database |
-| Service Worker | PWA support and notifications |
-| Font Awesome | Icons |
-| Google Fonts (Tajawal) | Arabic font |
+| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) | Page structure |
+| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) | Styling, layouts, and animations |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) | Logic and interactivity |
+| ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black) | Authentication & cloud database |
+| ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat&logo=pwa&logoColor=white) | Progressive Web App & notifications |
+| ![Font Awesome](https://img.shields.io/badge/Font_Awesome-528DD7?style=flat&logo=fontawesome&logoColor=white) | Icons |
+| ![Google Fonts](https://img.shields.io/badge/Google_Fonts-4285F4?style=flat&logo=googlefonts&logoColor=white) | Arabic font (Tajawal) |
 
 ### 📁 Project Structure
 

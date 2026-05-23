@@ -1111,8 +1111,17 @@ auth.onAuthStateChanged(async (user) => {
             const smartMiladiEn = document.getElementById('smartMiladiEn');
             const hijriDateDisplay = document.getElementById('hijriDateDisplay');
             try {
-                const hijriFormatterAr = new Intl.DateTimeFormat('ar-SA-u-ca-islamic', { day: 'numeric', month: 'long', year: 'numeric' });
-                const hijriFormatterEn = new Intl.DateTimeFormat('en-US-u-ca-islamic', { day: 'numeric', month: 'long', year: 'numeric' });
+                const hijriFormatterAr = new Intl.DateTimeFormat('ar-SA-u-ca-islamic-umalqura', { day: 'numeric', month: 'long', year: 'numeric' });
+                const hijriMonthsEn = ['Muharram','Safar',"Rabi' al-Awwal","Rabi' al-Thani",'Jumada al-Ula','Jumada al-Thania','Rajab','Sha\'ban','Ramadan','Shawwal',"Dhu al-Qi'dah",'Dhu al-Hijjah'];
+                const hijriParts = new Intl.DateTimeFormat('en-US-u-ca-islamic-umalqura', { day: 'numeric', month: 'numeric', year: 'numeric' }).formatToParts(now);
+                let hDay = '', hMonthNum = 0, hYear = '';
+                hijriParts.forEach(p => {
+                    if (p.type === 'day') hDay = p.value;
+                    if (p.type === 'month') hMonthNum = parseInt(p.value);
+                    if (p.type === 'year') hYear = p.value;
+                });
+                const hijriMonthEn = hijriMonthsEn[hMonthNum - 1] || '';
+                const hijriStrEn = hDay + ' ' + hijriMonthEn + ' ' + hYear + ' AH';
                 if (currentLang === 'ar') {
                     const arabicNumbers = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
                     const miladiDayAr = miladiDay.split('').map(d => arabicNumbers[parseInt(d)]).join('');
@@ -1134,7 +1143,7 @@ auth.onAuthStateChanged(async (user) => {
                     smartMiladiEn.style.display = 'block';
                     smartDayAr.style.display = 'none';
                     smartDayEn.style.display = 'block';
-                    hijriDateDisplay.innerText = hijriFormatterEn.format(now);
+                    hijriDateDisplay.innerText = hijriStrEn;
                 }
             } catch(e) {
                 hijriDateDisplay.innerText = '';

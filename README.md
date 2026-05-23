@@ -154,7 +154,7 @@ Zad-Ziad/
 
 ### 📸 Screenshots
 
-> Screenshots will be added soon.
+![Zad Ziad Screenshot](screenshot.png)
 
 ### 🔮 Future Improvements
 

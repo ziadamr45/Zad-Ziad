@@ -1118,7 +1118,7 @@ auth.onAuthStateChanged(async (user) => {
                     const miladiDayAr = miladiDay.split('').map(d => arabicNumbers[parseInt(d)]).join('');
                     const miladiMonthAr = miladiMonth.split('').map(d => arabicNumbers[parseInt(d)]).join('');
                     const miladiYearAr = miladiYear.toString().split('').map(d => arabicNumbers[parseInt(d)]).join('');
-                    smartMiladiAr.innerText = miladiDayAr + '/' + miladiMonthAr + '/' + miladiYearAr;
+                    smartMiladiAr.innerText = miladiYearAr + '/' + miladiMonthAr + '/' + miladiDayAr;
                     smartDayAr.innerText = dayStringAr;
                     smartDayEn.innerText = dayStringEn;
                     smartMiladiAr.style.display = 'block';

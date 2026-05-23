@@ -83,7 +83,47 @@
             "اللحظة قد تغير يومك اليوم قد يغير حياتك حياتك قد تغير العالم.",
             "عليك في حياتك بشكل عام أن تختار المعارك التي تخوضها والمعارك التي تهملها.",
             "الصديق كالمصعد اما يأخذك إلى الأعلى.. أو يسحبك إلى الأسفل.. فأحذر أي مصعد تأخذ.",
-            "ما أحلى اسم الله التواب.. يعطي المذنب أملاً ليبدأ من جديد ويخرجه من دائرة الإحباط."
+            "ما أحلى اسم الله التواب.. يعطي المذنب أملاً ليبدأ من جديد ويخرجه من دائرة الإحباط.",
+            "اللهم اجعل القرآن العظيم ربيع قلبي ونور صدري وجلاء حزني.",
+            "من صلى عليّ صلاة واحدة صلى الله عليه عشراً.",
+            "الدنيا سجن المؤمن وجنة الكافر.",
+            "إنما الأعمال بالنيات وإنما لكل امرئ ما نوى.",
+            "لا يؤمن أحدكم حتى يحب لأخيه ما يحب لنفسه.",
+            "المسلم من سلم المسلمون من لسانه ويده.",
+            "من كان يؤمن بالله واليوم الآخر فليقل خيراً أو ليصمت.",
+            "تبسمك في وجه أخيك صدقة.",
+            "الطهور شطر الإيمان والحمد لله تملأ الميزان.",
+            "صلِّ على النبيّ فإن الصلاة عليه تُنجي من الهم والكرب.",
+            "من استغفر الله دبر كل صلاة ثلاثاً غفرت ذنوبه ولو كانت مثل زبد البحر.",
+            "خيركم من تعلم القرآن وعلمه.",
+            "إن الله يحب إذا عمل أحدكم عملاً أن يتقنه.",
+            "من سلك طريقاً يلتمس فيه علماً سهّل الله له طريقاً إلى الجنة.",
+            "لا تزالوا في عبادة ما انتظرتم الصلاة.",
+            "ألا أدلكم على ما يمحو الله به الخطايا ويرفع به الدرجات؟ إسباغ الوضوء على المكاره، وكثرة الخطا إلى المساجد، وانتظار الصلاة بعد الصلاة.",
+            "من قال سبحان الله وبحمده مئة مرة حطت خطاياه وإن كانت مثل زبد البحر.",
+            "أقرب ما يكون العبد من ربه وهو ساجد فأكثروا الدعاء.",
+            "المؤمن يألف ويؤلف ولا خير فيمن لا يألف ولا يؤلف.",
+            "حفت الجنة بالمكاره وحفت النار بالشهوات.",
+            "اتق الله حيثما كنت وأتبع السيئة الحسنة تمحها وخالق الناس بخلق حسن.",
+            "من تواضع لله رفعه الله.",
+            "إنما بعثت لأتمم صالح الأخلاق.",
+            "خير الذكر لا إله إلا الله وخير الدعاء الاستغفار.",
+            "الدعاء هو العبادة.",
+            "لا تحقرون من المعروف شيئاً ولو أن تلقى أخاك بوجه طلق.",
+            "من سرّه أن يبسط له في رزقه وينسأ له في أجره فليصل رحمه.",
+            "رحم الله امرءاً صلى قبل العصر أربعاً.",
+            "إن في الجنة لغرفة يرى ظاهرها من باطنها وباطنها من ظاهرها أعدها الله لمن أطعم الطعام وألان الكلام وتابع الصيام وصلى بالليل والناس نيام.",
+            "من قرأ حرفاً من كتاب الله فله به حسنة والحسنة بعشر أمثالها.",
+            "المرء مع من أحب.",
+            "من صام رمضان إيماناً واحتساباً غفر له ما تقدم من ذنبه.",
+            "من قام رمضان إيماناً واحتساباً غفر له ما تقدم من ذنبه.",
+            "من قام ليلة القدر إيماناً واحتساباً غفر له ما تقدم من ذنبه.",
+            "إن لله تسعة وتسعين اسماً مئة إلا واحداً من أحصاها دخل الجنة.",
+            "الجنة أقرب إلى أحدكم من شركه والنار أقرب إليه من نعله.",
+            "يا مقلب القلوب ثبت قلبي على دينك.",
+            "من حسن إسلام المرء تركه ما لا يعنيه.",
+            "إن من أعظم الذنوب أن يسب الرجل والديه. قيل وكيف يسبهما؟ قال: يسب أبا الرجل فيسب أباه ويسب أمه فيسب أمه.",
+            "من نفّس عن مؤمن كربة من كرب الدنيا نفّس الله عنه كربة من كرب يوم القيامة."
         ];
 
         const advicesEn = [
@@ -142,7 +182,47 @@
             "A moment can change your day, a day can change your life, a life can change the world.",
             "In your life in general, you must choose which battles to fight and which battles to ignore.",
             "A friend is like an elevator: either he takes you up or pulls you down, so be careful which elevator you take.",
-            "How beautiful is the name of Allah, At-Tawwab (The Acceptor of Repentance); it gives the sinner hope to start anew and brings him out of the circle of frustration."
+            "How beautiful is the name of Allah, At-Tawwab; it gives the sinner hope to start anew and brings him out of the circle of frustration.",
+            "O Allah, make the Holy Quran the spring of my heart and the light of my chest and the remover of my sorrow.",
+            "Whoever sends blessings upon me once, Allah sends blessings upon him ten times.",
+            "This world is the prison of the believer and the paradise of the disbeliever.",
+            "Actions are judged by intentions, and everyone will be rewarded according to what they intended.",
+            "None of you truly believes until he loves for his brother what he loves for himself.",
+            "A Muslim is one from whose tongue and hand other Muslims are safe.",
+            "Whoever believes in Allah and the Last Day, let him speak good or remain silent.",
+            "Your smiling in the face of your brother is charity.",
+            "Purification is half of faith, and Alhamdulillah fills the scale.",
+            "Send blessings upon the Prophet, for it saves from worry and distress.",
+            "Whoever seeks forgiveness from Allah after every prayer three times, his sins will be forgiven even if they are like the foam of the sea.",
+            "The best of you are those who learn the Quran and teach it.",
+            "Allah loves when one of you does a job to perfect it.",
+            "Whoever treads a path in search of knowledge, Allah will make easy for him a path to Paradise.",
+            "You are constantly in prayer as long as you are waiting for the prayer.",
+            "Shall I not tell you about that by which Allah erases sins and raises ranks? Performing ablution thoroughly despite difficulties, walking many steps to the mosques, and waiting for the prayer after the prayer.",
+            "Whoever says Subhan Allah wa bihamdihi one hundred times, his sins will be forgiven even if they are like the foam of the sea.",
+            "The closest a servant is to his Lord is when he is prostrating, so increase your supplications.",
+            "The believer is friendly and befriended, and there is no good in one who is not friendly nor befriended.",
+            "Paradise is surrounded by hardships and Hell is surrounded by desires.",
+            "Fear Allah wherever you are, and follow a bad deed with a good one to erase it, and treat people with good character.",
+            "Whoever humbles himself for the sake of Allah, Allah will raise him.",
+            "I was sent to perfect good character.",
+            "The best remembrance is La ilaha illallah, and the best supplication is Al-istighfar.",
+            "Supplication is worship.",
+            "Do not belittle any good deed, even meeting your brother with a cheerful face.",
+            "Whoever wishes to have his provision expanded and his life extended, let him maintain ties of kinship.",
+            "May Allah have mercy on a person who prays four units before Asr.",
+            "In Paradise there is a room whose inside can be seen from the outside and whose outside can be seen from the inside, prepared by Allah for one who feeds the poor, speaks kindly, fasts regularly, and prays at night while people are asleep.",
+            "Whoever reads a letter from the Book of Allah will have a good deed, and a good deed is multiplied ten times.",
+            "A person will be with those whom he loves.",
+            "Whoever fasts Ramadan out of faith and seeking reward, his past sins will be forgiven.",
+            "Whoever stands in prayer during Ramadan out of faith and seeking reward, his past sins will be forgiven.",
+            "Whoever stands in prayer on Laylat al-Qadr out of faith and seeking reward, his past sins will be forgiven.",
+            "Allah has ninety-nine names, one hundred minus one. Whoever enumerates them will enter Paradise.",
+            "Paradise is closer to one of you than his shoelace, and the Fire is closer too.",
+            "O Turner of hearts, keep my heart firm upon Your religion.",
+            "Part of the perfection of one's Islam is leaving what does not concern him.",
+            "One of the greatest sins is for a person to curse his parents. It was asked: How does he curse them? He said: He curses someone's father, so that person curses his father, and he curses someone's mother, so that person curses his mother.",
+            "Whoever relieves a believer of a hardship in this world, Allah will relieve him of a hardship on the Day of Resurrection."
         ];
                 const names = ["الرحمن", "الرحيم", "الملك", "القدوس", "السلام", "المؤمن", "المهيمن", "العزيز", "الجبار", "المتكبر", "الخالق", "البارئ", "المصور", "الغفار", "القهار", "الوهاب", "الرزاق", "الفتاح", "العليم", "القابض", "الباسط", "الخافض", "الرافع", "المعز", "المذل", "السميع", "البصير", "الحكم", "العدل", "اللطيف", "الخبير", "الحليم", "العظيم", "الغفور", "الشكور", "العلي", "الكبير", "الحفيظ", "المقيت", "الحسيب", "الجليل", "الكريم", "الرقيب", "المجيب", "الواسع", "الحكيم", "الودود", "المجيد", "الباعث", "الشهيد", "الحق", "الوكيل", "القوي", "المتين", "الولي", "الحميد", "المحصي", "المبدئ", "المعيد", "المحيي", "المميت", "الحي", "القيوم", "الواحد", "الأحد", "الصمد", "القادر", "المقتدر", "المقدم", "المؤخر", "الأول", "الآخر", "الظاهر", "الباطن", "الوالي", "المتعالي", "البر", "التواب", "المنتقم", "العفو", "الرؤوف", "مالك الملك", "ذو الجلال والإكرام", "المقسط", "الجامع", "الغني", "المغني", "المانع", "الضار", "النافع", "النور", "الهادي", "البديع", "الباقي", "الوارث", "الرشيد", "الصبور"];
                 // ===== تهيئة Firebase =====
@@ -197,7 +277,6 @@ auth.onAuthStateChanged(async (user) => {
         
         // متغيرات الإشعارات والنوافذ المنبثقة
         let notificationInterval = null;
-        let inAppNotificationInterval = null;
         let notificationCheckInterval = null;
 
         const translations = {
@@ -248,7 +327,8 @@ auth.onAuthStateChanged(async (user) => {
                 morningReminder: "حان وقت قراءة أذكار الصباح.. ادخل اقرأها الآن",
                 eveningReminder: "حان وقت قراءة أذكار المساء.. ادخل اقرأها الآن",
                 sleepReminder: "حان وقت قراءة أذكار النوم.. ادخل اقرأها الآن",
-                randomZekrTitle: "ذكر عشوائي"
+                randomZekrTitle: "ذكر عشوائي",
+                hijriDate: "التاريخ الهجري"
             },
             en: {
                 title: "Zad Ziad",
@@ -297,7 +377,8 @@ auth.onAuthStateChanged(async (user) => {
                 morningReminder: "Time for morning Azkar.. Enter and read them now",
                 eveningReminder: "Time for evening Azkar.. Enter and read them now",
                 sleepReminder: "Time for sleep Azkar.. Enter and read them now",
-                randomZekrTitle: "Random Dhikr"
+                randomZekrTitle: "Random Dhikr",
+                hijriDate: "Hijri Date"
             }
         };
 
@@ -601,7 +682,6 @@ auth.onAuthStateChanged(async (user) => {
             updateThemeSelect();
             updateSmartDate();
             scheduleNotifications();
-            startInAppNotifications();
             
             if (Notification.permission !== 'granted' && Notification.permission !== 'denied') {
                 Notification.requestPermission();
@@ -610,7 +690,6 @@ auth.onAuthStateChanged(async (user) => {
 
         window.onbeforeunload = function() {
             if (notificationInterval) clearInterval(notificationInterval);
-            if (inAppNotificationInterval) clearInterval(inAppNotificationInterval);
             if (notificationCheckInterval) clearInterval(notificationCheckInterval);
         };
 
@@ -639,7 +718,6 @@ auth.onAuthStateChanged(async (user) => {
                         translations[currentLang].morningReminder
                     );
                     localStorage.setItem(lastNotificationKey, notificationKey);
-                    showRandomInAppNotification();
                 }
             } else if (hours === 17 && minutes === 0) {
                 const notificationKey = 'evening_' + todayDateStr;
@@ -649,7 +727,6 @@ auth.onAuthStateChanged(async (user) => {
                         translations[currentLang].eveningReminder
                     );
                     localStorage.setItem(lastNotificationKey, notificationKey);
-                    showRandomInAppNotification();
                 }
             } else if (hours === 23 && minutes === 0) {
                 const notificationKey = 'sleep_' + todayDateStr;
@@ -659,7 +736,6 @@ auth.onAuthStateChanged(async (user) => {
                         translations[currentLang].sleepReminder
                     );
                     localStorage.setItem(lastNotificationKey, notificationKey);
-                    showRandomInAppNotification();
                 }
             }
         }
@@ -692,30 +768,6 @@ auth.onAuthStateChanged(async (user) => {
                     );
                 }
             }
-        }
-
-        function startInAppNotifications() {
-            if (inAppNotificationInterval) clearInterval(inAppNotificationInterval);
-            inAppNotificationInterval = setInterval(showRandomInAppNotification, 120000);
-            setTimeout(showRandomInAppNotification, 3000);
-        }
-
-        function showRandomInAppNotification() {
-            const sel = document.getElementById('sel');
-            if (!sel || !sel.options || sel.options.length === 0) return;
-            const options = Array.from(sel.options);
-            const randomIndex = Math.floor(Math.random() * options.length);
-            const randomZekr = options[randomIndex].value;
-            if (!randomZekr) return;
-            const container = document.getElementById('inAppNotificationContainer');
-            if (!container) return;
-            const notification = document.createElement('div');
-            notification.className = 'in-app-notification';
-            notification.innerHTML = '<i class="fas fa-heart" style="color: var(--gold); margin-left: 8px;"></i>' + randomZekr;
-            container.appendChild(notification);
-            setTimeout(() => { if (notification.parentNode) { notification.remove(); } }, 5000);
-            const notifications = container.children;
-            if (notifications.length > 3) { notifications[0].remove(); }
         }
 
         function checkAndResetDaily() {
@@ -1057,42 +1109,35 @@ auth.onAuthStateChanged(async (user) => {
             const smartDayEn = document.getElementById('smartDayEn');
             const smartMiladiAr = document.getElementById('smartMiladiAr');
             const smartMiladiEn = document.getElementById('smartMiladiEn');
-            const ramadanMessage = document.getElementById('ramadanMessage');
-            const ramadanStart = new Date(2026, 1, 18);
-            const timeDiff = ramadanStart - now;
-            let daysLeft = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
-            if (daysLeft < 0) daysLeft = 0;
-            if (currentLang === 'ar') {
-                const arabicNumbers = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
-                const miladiDayAr = miladiDay.split('').map(d => arabicNumbers[parseInt(d)]).join('');
-                const miladiMonthAr = miladiMonth.split('').map(d => arabicNumbers[parseInt(d)]).join('');
-                const miladiYearAr = miladiYear.toString().split('').map(d => arabicNumbers[parseInt(d)]).join('');
-                smartMiladiAr.innerText = miladiDayAr + '/' + miladiMonthAr + '/' + miladiYearAr;
-                smartDayAr.innerText = dayStringAr;
-                smartDayEn.innerText = dayStringEn;
-                smartMiladiAr.style.display = 'block';
-                smartMiladiEn.style.display = 'none';
-                smartDayAr.style.display = 'block';
-                smartDayEn.style.display = 'none';
-                if (daysLeft === 0) {
-                    ramadanMessage.innerText = translations.ar.ramadanArrived;
+            const hijriDateDisplay = document.getElementById('hijriDateDisplay');
+            try {
+                const hijriFormatterAr = new Intl.DateTimeFormat('ar-SA-u-ca-islamic', { day: 'numeric', month: 'long', year: 'numeric' });
+                const hijriFormatterEn = new Intl.DateTimeFormat('en-US-u-ca-islamic', { day: 'numeric', month: 'long', year: 'numeric' });
+                if (currentLang === 'ar') {
+                    const arabicNumbers = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
+                    const miladiDayAr = miladiDay.split('').map(d => arabicNumbers[parseInt(d)]).join('');
+                    const miladiMonthAr = miladiMonth.split('').map(d => arabicNumbers[parseInt(d)]).join('');
+                    const miladiYearAr = miladiYear.toString().split('').map(d => arabicNumbers[parseInt(d)]).join('');
+                    smartMiladiAr.innerText = miladiDayAr + '/' + miladiMonthAr + '/' + miladiYearAr;
+                    smartDayAr.innerText = dayStringAr;
+                    smartDayEn.innerText = dayStringEn;
+                    smartMiladiAr.style.display = 'block';
+                    smartMiladiEn.style.display = 'none';
+                    smartDayAr.style.display = 'block';
+                    smartDayEn.style.display = 'none';
+                    hijriDateDisplay.innerText = hijriFormatterAr.format(now);
                 } else {
-                    const daysLeftAr = daysLeft.toString().split('').map(d => arabicNumbers[parseInt(d)]).join('');
-                    ramadanMessage.innerText = translations.ar.ramadanCountdown + ' ' + daysLeftAr + ' ' + translations.ar.days;
+                    smartMiladiEn.innerText = miladiYear + '/' + miladiMonth + '/' + miladiDay;
+                    smartDayEn.innerText = dayStringEn;
+                    smartDayAr.innerText = dayStringAr;
+                    smartMiladiAr.style.display = 'none';
+                    smartMiladiEn.style.display = 'block';
+                    smartDayAr.style.display = 'none';
+                    smartDayEn.style.display = 'block';
+                    hijriDateDisplay.innerText = hijriFormatterEn.format(now);
                 }
-            } else {
-                smartMiladiEn.innerText = miladiYear + '/' + miladiMonth + '/' + miladiDay;
-                smartDayEn.innerText = dayStringEn;
-                smartDayAr.innerText = dayStringAr;
-                smartMiladiAr.style.display = 'none';
-                smartMiladiEn.style.display = 'block';
-                smartDayAr.style.display = 'none';
-                smartDayEn.style.display = 'block';
-                if (daysLeft === 0) {
-                    ramadanMessage.innerText = translations.en.ramadanArrived;
-                } else {
-                    ramadanMessage.innerText = translations.en.ramadanCountdown + ' ' + daysLeft + ' ' + (daysLeft === 1 ? 'day' : translations.en.days);
-                }
+            } catch(e) {
+                hijriDateDisplay.innerText = '';
             }
         }
 

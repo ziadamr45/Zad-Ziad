@@ -66,6 +66,19 @@ Zad-Ziad/
 └── README.md           # هذا الملف
 ```
 
+### 📸 لقطات الشاشة
+
+> سيتم إضافة لقطات الشاشة قريبًا.
+
+### 🔮 تحسينات مستقبلية
+
+- إضافة التاريخ الهجري الديناميكي الذي يتحدث يوميًا
+- توسيع قاعدة النصائح الإسلامية المتجددة
+- إضافة المزيد من الأذكار والأدعية
+- تحسين تجربة المستخدم على الأجهزة المختلفة
+- إضافة ميزة تتبع قراءة القرآن اليومية
+- دعم لغات إضافية
+
 ### 🚀 طريقة التشغيل
 
 1. قم باستنساخ المستودع:
@@ -137,6 +150,19 @@ Zad-Ziad/
 └── README.md           # This file
 ```
 
+### 📸 Screenshots
+
+> Screenshots will be added soon.
+
+### 🔮 Future Improvements
+
+- Add dynamic Hijri date that updates daily
+- Expand the Islamic advice collection
+- Add more Azkar and Duas
+- Improve user experience across different devices
+- Add daily Quran reading tracker
+- Support additional languages
+
 ### 🚀 How to Run
 
 1. Clone the repository:
@@ -152,7 +178,8 @@ Zad-Ziad/
 
 - 📱 Telegram: [@ziadamr](https://t.me/ziadamr)
 - 📘 Facebook: [ziad7mr](https://www.facebook.com/ziad7mr)
-- 🎥 YouTube: @alhayat_ala_eltarek
+- 🎥 YouTube: [@alhayat_ala_eltareek](https://youtube.com/@alhayat_ala_eltareek)
+- 🌐 Portfolio: [ziadamrme.vercel.app](https://ziadamrme.vercel.app)
 
 ### 📜 License
 

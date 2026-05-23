@@ -11,6 +11,8 @@
 [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com/)
 [![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat&logo=pwa&logoColor=white)](https://web.dev/progressive-web-apps/)
 [![Website](https://img.shields.io/badge/Website-Live-brightgreen?style=flat&logo=vercel&logoColor=white)](https://zad-ziad.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Online-22c55e?style=flat&logo=vercel&logoColor=white)](https://zad-ziad.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white)](https://github.com/ziadamr45/Zad-Ziad)
 
 🔗 **[zad-ziad.vercel.app](https://zad-ziad.vercel.app/)**
 

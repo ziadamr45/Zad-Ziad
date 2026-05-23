@@ -10,6 +10,9 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com/)
 [![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat&logo=pwa&logoColor=white)](https://web.dev/progressive-web-apps/)
+[![Website](https://img.shields.io/badge/Website-Live-brightgreen?style=flat&logo=vercel&logoColor=white)](https://zad-ziad.vercel.app/)
+
+🔗 **[zad-ziad.vercel.app](https://zad-ziad.vercel.app/)**
 
 </div>
 

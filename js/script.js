@@ -1113,7 +1113,7 @@ auth.onAuthStateChanged(async (user) => {
             try {
                 const hijriFormatterAr = new Intl.DateTimeFormat('ar-SA-u-ca-islamic-umalqura', { day: 'numeric', month: 'long', year: 'numeric' });
                 const hijriMonthsEn = ['Muharram','Safar',"Rabi' al-Awwal","Rabi' al-Thani",'Jumada al-Ula','Jumada al-Thania','Rajab','Sha\'ban','Ramadan','Shawwal',"Dhu al-Qi'dah",'Dhu al-Hijjah'];
-                const hijriParts = new Intl.DateTimeFormat('en-US-u-ca-islamic-umalqura', { day: 'numeric', month: 'numeric', year: 'numeric' }).formatToParts(now);
+                const hijriParts = new Intl.DateTimeFormat('ar-SA-u-ca-islamic-umalqura', { day: 'numeric', month: 'numeric', year: 'numeric' }).formatToParts(now);
                 let hDay = '', hMonthNum = 0, hYear = '';
                 hijriParts.forEach(p => {
                     if (p.type === 'day') hDay = p.value;

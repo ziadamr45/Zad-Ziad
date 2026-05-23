@@ -200,6 +200,6 @@ This project is available as an ongoing charity (Sadaqah Jariyah) — We ask All
 
 <div align="center">
 
-Made with ❤️ by [Ziad Amr](https://github.com/ziadamr45)
+Ziad Amr
 
 </div>

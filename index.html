@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>زاد زياد</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/ds-digital" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <!-- Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+</head>
+<body data-mode="light" data-color="light">
+    <audio id="clickSound" src="https://assets.mixkit.co/active_storage/sfx/2568/2568-preview.mp3"></audio>
+    <audio id="beepSound" src="https://assets.mixkit.co/sfx/preview/mixkit-alarm-digital-clock-beep-989.mp3"></audio>
+    <audio id="achievementSound" src="https://assets.mixkit.co/sfx/preview/mixkit-winning-chimes-2015.mp3"></audio>
+    <audio id="allCompleteSound" src="https://assets.mixkit.co/sfx/preview/mixkit-achievement-bell-600.mp3"></audio>
+
+    <div id="splash">
+        <i class="fas fa-crown" style="font-size: 60px; color: #fbbf24;"></i>
+        <h1 style="color: #fbbf24; font-weight: 900; font-size: 2.2rem; margin: 5px 0;">زاد زياد</h1>
+        <div style="color: #fbbf24; font-weight: 700;">يومك معطِّر بذكر الله</div>
+    </div>
+
+    <header>
+        <button onclick="toggleMode()" style="position: absolute; left: 15px; top: 10px; border: none; background: none; font-size: 1.3rem; color: var(--p); cursor: pointer;"><i class="fas fa-adjust"></i></button>
+        <h1 class="logo-text">زاد زياد</h1>
+        <button class="settings-btn" onclick="openSettings()"><i class="fas fa-cog"></i></button>
+        <button class="user-btn" onclick="openAuthModal()"><i class="fas fa-user-circle"></i></button>
+        <div class="ziad-msg">زياد بيقولك صلِّ على النبيّ 🤍</div>
+    </header>
+
+    <!-- ---------- حاوية الإشعارات الجانبية In-App ---------- -->
+    <div id="inAppNotificationContainer"></div>
+
+    <div class="main-container">
+        <div id="hPage" class="page active-page">
+            <div id="advice" class="advice-box">استعن بالله ولا تعجز.</div>
+            <div style="text-align: center; padding: 15px; background: var(--card); border-radius: 15px; border: 3px solid var(--p);">
+                <h2 style="color: var(--p); font-weight: 900; margin: 0; font-size: 1.3rem;">زاد زياد.....الخير ساد🤍</h2>
+                <p style="font-weight: 900; font-size: 0.85rem; margin-top: 5px;">(مواقيت الصلاة، الأذكار، التسبيح، القرآن الكريم)</p>
+                <div class="hijri-date" id="hijriDate"></div>
+            </div>
+            <!-- مستطيل التاريخ الجديد -->
+            <div id="smartDateContainer" class="smart-date-card">
+                <div class="smart-date-item" style="text-align: left;">
+                    <i class="fas fa-sun"></i>
+                    <span id="smartMiladiLabel" style="display: none;">ميلادي</span>
+                    <span id="smartMiladiAr" class="smart-date-value">١٢/٠٢/٢٠٢٦</span>
+                    <span id="smartMiladiEn" style="display: none;">2026/02/12</span>
+                </div>
+                <div id="ramadanCountdownContainer" class="ramadan-message">
+                    <i class="fas fa-moon"></i>
+                    <div id="ramadanMessage"></div>
+                </div>
+                <div class="smart-date-item" style="text-align: right;">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span id="smartDayLabel" style="display: none;">اليوم</span>
+                    <span id="smartDayAr" class="smart-date-value">الخميس</span>
+                    <span id="smartDayEn" style="display: none;">Thursday</span>
+                </div>
+            </div>
+            <h4 style="text-align: center; margin: 10px 0; font-weight: 900; color: var(--p); line-height: 1.4;">أسماء الله الحسنى ٩٩ اسمًا من أحصاها دخل الجنة</h4>
+            <div class="names-grid" id="namesGrid"></div>
+        </div>
+        <div id="pPage" class="page">
+            <div class="praise-card">
+                <div style="font-weight: 900; color: var(--p);">الحسنات: <span id="gCount">0</span> <i class="fas fa-undo" style="margin-right:10px; color:var(--gold); cursor:pointer;" onclick="resetGoodDeeds()"></i></div>
+                <div id="dTitle" style="font-weight: 900; color: var(--gold); font-size: 1.2rem;">سبحان الله</div>
+                <div class="lcd"><i class="fas fa-sync-alt" style="position:absolute; left:12px; top:12px; font-size:1rem;" onclick="resetS()"></i><span id="sCount">0</span></div>
+                <button class="tap-btn" onclick="handleTap()">سبّح</button>
+                <select id="sel" onchange="setD(this.value)">
+                    <option>سُبْحَانَ اللَّه</option>
+                    <option>الْحَمْدُ لِلَّهِ</option>
+                    <option>لَا إِلَهَ إِلَّا الْلَّه</option>
+                    <option>الْلَّهُ أَكْبَرُ</option>
+                    <option>لا حَوْلَ وَلا قُوَّةَ إِلا بِاللَّهِ</option>
+                    <option>سُبْحَانَ اللَّهِ وَبِحَمْدِهِ</option>
+                    <option>سُبْحَانَ اللَّهِ الْعَظِيمِ</option>
+                    <option>سُبْحَانَ اللهِ العَظِيمِ وَبِحَمْدِهِ</option>
+                    <option>لا إلَه إلّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلُّ شَيْءِ قَدِيرِ</option>
+                    <option>الْلَّهُم صَلِّ وَسَلِم وَبَارِك عَلَى سَيِّدِنَا مُحَمَّد</option>
+                    <option>الْحَمْدُ للّهِ رَبِّ الْعَالَمِينَ</option>
+                    <option>الْحَمْدُ لِلَّهِ حَمْدًا كَثِيرًا طَيِّبًا مُبَارَكًا فِيهِ</option>
+                    <option>اللَّهُمَّ اغْفِرْ لِي</option>
+                    <option>اللَّهُمَّ ارْحَمْنِي</option>
+                    <option>اللَّهُمَّ ارْزُقْنِي</option>
+                    <option>أستغفر الله الْعَظِيمِ</option>
+                    <option>اللَّهُ أَكْبَرُ كَبِيرًا ، وَالْحَمْدُ لِلَّهِ كَثِيرًا ، وَسُبْحَانَ اللَّهِ بُكْرَةً وَأَصِيلاً</option>
+                    <option>اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ , وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ , اللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="zPage" class="page">
+            <div id="azCategories"></div>
+            <div id="azGroupContent" style="display:none;">
+                <button class="back-btn" onclick="showCategories()"><i class="fas fa-arrow-right"></i> <span id="backToGroupsText">العودة للمجموعات</span></button>
+                <div id="groupTitle" style="text-align:center; font-weight:900; color:var(--p); margin-bottom:15px; font-size:1.2rem;"></div>
+                <div id="azList"></div>
+                <div id="groupCompletionMsg" class="group-completion"></div>
+            </div>
+        </div>
+        
+        <div id="qPage" class="page"><iframe src="https://surahquran.com/"></iframe></div>
+        <div id="prPage" class="page"><iframe src="https://eg.prayertimes.news/alexandria.html"></iframe></div>
+
+        <div id="rPage" class="page">
+            <div style="text-align:center; padding: 20px;">
+                <i class="fas fa-radio" style="font-size: 50px; color: var(--p); margin-bottom: 15px;"></i>
+                <h3 style="font-weight: 900; color: var(--p);" id="radioTitle">إذاعة القرآن الكريم</h3>
+                <p style="font-weight: 700; font-size: 0.8rem; color: var(--gold);" id="radioDesc">اضغط أدناه للتشغيل (لمنع التشغيل التلقائي)</p>
+                <button onclick="loadRadio()" style="background: var(--p); color: white; border: none; padding: 12px 30px; border-radius: 50px; font-weight: 900; cursor: pointer;" id="radioBtn">تشغيل الآن</button>
+            </div>
+            <div id="radioContainer" style="width: 100%; height: 70%; display: none;">
+                <iframe id="radioIframe" src=""></iframe>
+            </div>
+        </div>
+
+        <div id="iPage" class="page">
+            <div class="about-card">
+                <div class="profile-circle">Z</div>
+                <h2 style="margin:0; font-weight: 900; color: var(--p);" id="developerName">زياد عمرو</h2>
+                <p style="font-weight: 900; color: var(--gold); margin-bottom: 10px;" id="developerDesc">مطوِّر تطبيق "زاد زياد"</p>
+                <div style="font-weight: 900; font-size: 0.9rem; text-align: justify; line-height: 1.6;" id="appGoal">
+                    <b>هدف التطبيق:</b> صدقة جارية تهدف إلى نشر ذكر الله وتسهيل قراءة القرآن الكريم والأذكار في أي وقت ومكان بأسلوب بسيط وجذاب. نسأل الله أن يتقبل منا ومنكم صالح الأعمال.
+                </div>
+                <hr style="width: 85%; opacity: 0.1; margin: 15px auto;">
+                <h4 style="font-weight: 900; margin: 5px 0;" id="contactTitle">تواصل معنا - Contact Us</h4>
+                <a href="https://t.me/ziadamr" class="social-link" style="background:#0088cc;"><i class="fab fa-telegram"></i> Telegram</a>
+                <a href="https://www.facebook.com/ziad7mr" class="social-link" style="background:#1877F2;"><i class="fab fa-facebook"></i> Facebook</a>
+            </div>
+        </div>
+    </div>
+
+    <nav class="nav-bar">
+        <div class="nav-btn" onclick="show('qPage', this)"><i class="fas fa-book-quran"></i><span>قرآن</span></div>
+        <div class="nav-btn" onclick="show('zPage', this)"><i class="fas fa-heart"></i><span>أذكار</span></div>
+        <div class="nav-btn" onclick="show('prPage', this)"><i class="fas fa-clock"></i><span>صلاة</span></div>
+        <div class="nav-btn active" id="mainBtn" onclick="show('hPage', this)" style="transform:scale(1.1); color:var(--gold);"><i class="fas fa-home"></i><span>الرئيسية</span></div>
+        <div class="nav-btn" onclick="show('pPage', this)"><i class="fas fa-fingerprint"></i><span>تسبيح</span></div>
+        <div class="nav-btn" onclick="show('rPage', this)"><i class="fas fa-radio"></i><span>راديو</span></div>
+        <div class="nav-btn" onclick="show('iPage', this)"><i class="fas fa-info-circle"></i><span>عنا</span></div>
+    </nav>
+
+    <div id="allCompleteModal">
+        <div class="all-complete-content">
+            <div class="all-complete-icon"><i class="fas fa-trophy"></i></div>
+            <div class="all-complete-title" id="allCompleteTitle">تهانينا!</div>
+            <div class="all-complete-message" id="allCompleteMessage">مبارك عليك.. دمت في رعاية الله</div>
+            <button class="close-all-complete" onclick="closeAllComplete()" id="allCompleteBtn">حسناً</button>
+        </div>
+    </div>
+    <div id="settingsModal">
+        <div class="settings-content">
+            <div class="settings-header">
+                <h3 class="settings-title" id="settingsTitle">الإعدادات</h3>
+                <button class="close-btn" onclick="closeSettings()">×</button>
+            </div>
+
+            <div class="settings-section">
+                <h4 id="langLabel">اللغة</h4>
+                <select id="languageSelect" onchange="changeLanguage(this.value)">
+                    <option value="ar">العربية</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+
+            <div class="settings-section">
+                <h4 id="appThemeLabel">سمات التطبيق</h4>
+                <select id="appThemeSelect" onchange="changeAppTheme(this.value)">
+                    <option value="light">الافتراضي / Default</option>
+                    <option value="blue">أزرق / Blue</option>
+                    <option value="green">أخضر / Green</option>
+                    <option value="purple">بنفسجي / Purple</option>
+                    <option value="pink">وردي / Pink</option>
+                    <option value="orange">برتقالي / Orange</option>
+                    <option value="graydark">رمادي داكن / Dark Gray</option>
+                </select>
+            </div>
+
+            <div class="settings-section">
+                <button id="muteBtn" class="mute-btn" onclick="toggleMute()">
+                    <i class="fas fa-volume-up"></i>
+                    <span id="muteText">كتم صوت التطبيق</span>
+                </button>
+            </div>
+
+            <div class="settings-section">
+                <a href="https://youtube.com/@alhayat_ala_eltarek" target="_blank" class="youtube-btn">
+                    <i class="fab fa-youtube"></i>
+                    <span id="youtubeText">اشترك في قناتنا على اليوتيوب</span>
+                </a>
+            </div>
+        </div>
+    </div>
+        <script src="js/script.js"></script>
+    <!-- تسجيل Service Worker -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('/sw.js').then(function(registration) {
+                    console.log('ServiceWorker registration successful');
+                }, function(err) {
+                    console.log('ServiceWorker registration failed: ', err);
+                });
+            });
+        }
+    </script>
+    
+    <!--
+    // محتوى ملف sw.js
+    self.addEventListener('install', function(event) {
+        console.log('Service Worker installed');
+    });
+    
+    self.addEventListener('activate', function(event) {
+        console.log('Service Worker activated');
+    });
+    
+    self.addEventListener('notificationclick', function(event) {
+        event.notification.close();
+        event.waitUntil(clients.openWindow('/'));
+    });
+    -->
+    <!-- نافذة تسجيل الدخول -->
+<div id="authModal" class="auth-modal">
+    <div class="auth-modal-content">
+        <span class="auth-close" onclick="closeAuthModal()">&times;</span>
+        <h2 id="authTitle">تسجيل الدخول</h2>
+        <button class="auth-google" onclick="signInWithGoogle()">
+            <i class="fab fa-google"></i> تسجيل الدخول بجوجل
+        </button>
+        <button class="auth-phone" onclick="showPhoneInput()">
+            <i class="fas fa-phone"></i> تسجيل الدخول برقم الهاتف
+        </button>
+        <p style="margin: 15px 0 5px; color: var(--text);">ليس لديك حساب؟ اختر طريقة التسجيل أعلاه وسيتم إنشاء حساب تلقائيًا</p>
+        <div id="phoneVerification" style="display: none;">
+            <input type="text" id="phoneNumber" placeholder="مثال: +201234567890" class="auth-input">
+            <button onclick="sendVerificationCode()" class="auth-send">إرسال الرمز</button>
+            <input type="text" id="verificationCode" placeholder="رمز التحقق" class="auth-input" style="margin-top:10px;">
+            <button onclick="verifyCode()" class="auth-verify">تحقق</button>
+        </div>
+        <div id="userInfo" style="display: none;">
+            <p>مرحباً <span id="userName"></span></p>
+            <button onclick="signOut()" class="auth-signout">تسجيل الخروج</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

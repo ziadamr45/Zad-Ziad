@@ -68,9 +68,9 @@ Zad-Ziad/
 └── README.md           # هذا الملف
 ```
 
-### 📸 لقطات الشاشة
+### 📸 لقطات الشاشة | Screenshots
 
-> سيتم إضافة لقطات الشاشة قريبًا.
+![Zad Ziad Screenshot](screenshot.png)
 
 ### 🔮 تحسينات مستقبلية
 

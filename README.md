@@ -163,3 +163,11 @@ This project is available as an ongoing charity (Sadaqah Jariyah) — We ask All
 **We ask Allah to accept from us and from you righteous deeds 🤍**
 
 </div>
+
+---
+
+<div align="center">
+
+Made with ❤️ by [Ziad Amr](https://github.com/ziadamr45)
+
+</div>

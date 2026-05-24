@@ -1,116 +1,19 @@
-<div align="center">
-
 # ☪️ زاد زياد | Zad Ziad
 
-**تطبيق إسلامي شامل لنشر ذكر الله**  
-**A Comprehensive Islamic App for Spreading the Remembrance of Allah**
+[![License](https://img.shields.io/badge/License-Source_Available-blue)](LICENSE.md)
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue)]()
+[![Website](https://img.shields.io/website?url=https://zad-ziad.vercel.app)](https://zad-ziad.vercel.app)
 
-[![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com/)
-[![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat&logo=pwa&logoColor=white)](https://web.dev/progressive-web-apps/)
-[![Website](https://img.shields.io/badge/Website-Live-brightgreen?style=flat&logo=vercel&logoColor=white)](https://zad-ziad.vercel.app/)
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Online-22c55e?style=flat&logo=vercel&logoColor=white)](https://zad-ziad.vercel.app/)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white)](https://github.com/ziadamr45/Zad-Ziad)
-
-🔗 **[zad-ziad.vercel.app](https://zad-ziad.vercel.app/)**
-
-</div>
-
----
-
-## 🇸🇦 بالعربية
-
-### 📖 نبذة عن التطبيق
-
-**زاد زياد** هو تطبيق إسلامي شامل يهدف إلى أن يكون صدقة جارية لنشر ذكر الله وتسهيل قراءة القرآن الكريم والأذكار في أي وقت ومكان. صُمم التطبيق بأسلوب بسيط وجذاب يناسب جميع الفئات العمرية، مع مراعاة توفير تجربة مستخدم سلسة ومريحة للعين. اسم "زاد زياد" يحمل معنى عميقاً: الزاد هو ما يتزود به المسلم لآخرته، وزياد هو اسم المطور الذي أسهم في بناء هذا التطبيق ليكون زاداً للمسلمين في كل مكان.
-
-### ✨ المميزات الرئيسية
-
-- 🕌 **أذكار الصباح والمساء والنوم** — مجموعة شاملة من الأذكار النبوية الصحيحة مع عداد تفاعلي لكل ذكر وتتبع لحالة الإتمام
-- 📿 **عداد التسبيح** — عداد رقمي بتأثيرات صوتية واهتزاز مع 18 ذكراً مختلفاً للاختيار من بينها
-- 📖 **القرآن الكريم** — تصفح القرآن الكريم مباشرة من داخل التطبيق
-- 🕐 **مواقيت الصلاة** — عرض مواقيت الصلاة حسب الموقع
-- 📻 **إذاعة القرآن الكريم** — استماع مباشر لإذاعة القرآن الكريم
-- 🤲 **أسماء الله الحسنى ٩٩** — عرض جميع أسماء الله الحسنى
-- 🌙 **عداد رمضان** — عداد تنازلي لشهر رمضان المبارك
-- 💡 **نصيحة اليوم** — نصائح إسلامية متجددة كل 5 دقائق
-- 🌓 **الوضع الليلي/النهاري** — تبديل سهل بين المظهرين
-- 🎨 **7 سمات ألوان** — افتراضي، أزرق، أخضر، بنفسجي، وردي، برتقالي، رمادي داكن
-- 🌐 **ثنائي اللغة** — دعم كامل للعربية والإنجليزية
-- 🔔 **الإشعارات** — إشعارات تذكيرية بمواعيد الأذكار وإشعارات عشوائية للأذكار
-- 👤 **تسجيل الدخول** — مصادقة عبر Google أو رقم الهاتف باستخدام Firebase
-- ☁️ **مزامنة البيانات** — حفظ واستعادة البيانات عبر Firebase Firestore
-- 📱 **PWA** — يعمل كتطبيق ويب تقدمي
-
-### 🛠️ التقنيات المستخدمة
-
-| التقنية | الاستخدام |
-|---------|-----------|
-| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) | هيكل الصفحات |
-| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) | التصميم والأنماط والتأثيرات |
-| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) | المنطق البرمجي والتفاعلية |
-| ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black) | المصادقة وقاعدة البيانات السحابية |
-| ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat&logo=pwa&logoColor=white) | تطبيق ويب تقدمي وإشعارات |
-| ![Font Awesome](https://img.shields.io/badge/Font_Awesome-528DD7?style=flat&logo=fontawesome&logoColor=white) | الأيقونات |
-| ![Google Fonts](https://img.shields.io/badge/Google_Fonts-4285F4?style=flat&logo=googlefonts&logoColor=white) | الخط العربي (Tajawal) |
-
-### 📁 هيكل المشروع
-
-```
-Zad-Ziad/
-├── index.html          # الصفحة الرئيسية
-├── css/
-│   └── style.css       # ملف الأنماط
-├── js/
-│   └── script.js       # ملف JavaScript الرئيسي
-└── README.md           # هذا الملف
-```
-
-### 📸 لقطات الشاشة | Screenshots
+> A Comprehensive Islamic App for Spreading the Remembrance of Allah
+> تطبيق إسلامي شامل لنشر ذكر الله
 
 ![Zad Ziad Screenshot](screenshot.png)
 
-### 🔮 تحسينات مستقبلية
-
-- إضافة التاريخ الهجري الديناميكي الذي يتحدث يوميًا
-- توسيع قاعدة النصائح الإسلامية المتجددة
-- إضافة المزيد من الأذكار والأدعية
-- تحسين تجربة المستخدم على الأجهزة المختلفة
-- إضافة ميزة تتبع قراءة القرآن اليومية
-- دعم لغات إضافية
-
-### 🚀 طريقة التشغيل
-
-1. قم باستنساخ المستودع:
-   ```bash
-   git clone https://github.com/ziadamr45/Zad-Ziad.git
-   ```
-2. افتح ملف `index.html` في المتصفح مباشرة
-3. أو استخدم أي خادم محلي مثل Live Server
-
-### 👨‍💻 المطور
-
-**زياد عمرو (Ziad Amr)**
-
-- 📱 Telegram: [@ziadamr](https://t.me/ziadamr)
-- 📘 Facebook: [ziad7mr](https://www.facebook.com/ziad7mr)
-- 🎥 YouTube: [@alhayat_ala_eltareek](https://youtube.com/@alhayat_ala_eltareek)
-
-### 📜 الرخصة
-
-هذا المشروع متاح كصدقة جارية — نسأل الله أن يتقبل منا ومنكم صالح الأعمال.
-
 ---
 
-## 🇺🇸 In English
+## 🌐 English
 
-### 📖 About the App
-
-**Zad Ziad** is a comprehensive Islamic application that aims to be an ongoing charity (Sadaqah Jariyah) for spreading the remembrance of Allah and facilitating the reading of the Holy Quran and Azkar at any time and place. The app is designed with a simple and attractive style suitable for all age groups, with attention to providing a smooth and eye-friendly user experience. The name "Zad Ziad" carries a deep meaning: "Zad" means provision that a Muslim prepares for the Hereafter, and "Ziad" is the name of the developer who contributed to building this app to be provision for Muslims everywhere.
-
-### ✨ Key Features
+### Features
 
 - 🕌 **Morning, Evening & Sleep Azkar** — A comprehensive collection of authentic Prophetic Azkar with an interactive counter for each Zekr and completion tracking
 - 📿 **Tasbih Counter** — Digital counter with sound effects and vibration, with 18 different Dhikr to choose from
@@ -128,78 +31,96 @@ Zad-Ziad/
 - ☁️ **Data Sync** — Save and restore data via Firebase Firestore
 - 📱 **PWA** — Works as a Progressive Web App
 
-### 🛠️ Technologies Used
+### Technologies
 
-| Technology | Usage |
-|------------|-------|
-| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) | Page structure |
-| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) | Styling, layouts, and animations |
-| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) | Logic and interactivity |
-| ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black) | Authentication & cloud database |
-| ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat&logo=pwa&logoColor=white) | Progressive Web App & notifications |
-| ![Font Awesome](https://img.shields.io/badge/Font_Awesome-528DD7?style=flat&logo=fontawesome&logoColor=white) | Icons |
-| ![Google Fonts](https://img.shields.io/badge/Google_Fonts-4285F4?style=flat&logo=googlefonts&logoColor=white) | Arabic font (Tajawal) |
+- HTML5, CSS3, JavaScript, Firebase, PWA, Font Awesome, Google Fonts (Tajawal)
 
-### 📁 Project Structure
+### Installation
 
-```
-Zad-Ziad/
-├── index.html          # Main page
-├── css/
-│   └── style.css       # Stylesheet
-├── js/
-│   └── script.js       # Main JavaScript file
-└── README.md           # This file
+```bash
+git clone https://github.com/ziadamr45/Zad-Ziad.git
+cd Zad-Ziad
+# Open index.html in your browser directly
+# Or use any local server like Live Server
 ```
 
-### 📸 Screenshots
+### Live Demo
 
-![Zad Ziad Screenshot](screenshot.png)
+[zad-ziad.vercel.app](https://zad-ziad.vercel.app)
 
-### 🔮 Future Improvements
+### Contributing
 
-- Add dynamic Hijri date that updates daily
-- Expand the Islamic advice collection
-- Add more Azkar and Duas
-- Improve user experience across different devices
-- Add daily Quran reading tracker
-- Support additional languages
+See [CONTRIBUTING.md](CONTRIBUTING.md)
 
-### 🚀 How to Run
+### License
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ziadamr45/Zad-Ziad.git
-   ```
-2. Open `index.html` in your browser directly
-3. Or use any local server like Live Server
+This project uses [Source Available License](LICENSE.md) — © 2026 Ziad Amr
 
-### 👨‍💻 Developer
+---
 
-**Ziad Amr**
+## 🇪🇬 العربية
 
-- 📱 Telegram: [@ziadamr](https://t.me/ziadamr)
-- 📘 Facebook: [ziad7mr](https://www.facebook.com/ziad7mr)
-- 🎥 YouTube: [@alhayat_ala_eltareek](https://youtube.com/@alhayat_ala_eltareek)
+### المميزات
+
+- 🕌 **أذكار الصباح والمساء والنوم** — مجموعة شاملة من الأذكار النبوية الصحيحة مع عداد تفاعلي لكل ذكر وتتبع لحالة الإتمام
+- 📿 **عداد التسبيح** — عداد رقمي بتأثيرات صوتية واهتزاز مع 18 ذكراً مختلفاً للاختيار من بينها
+- 📖 **القرآن الكريم** — تصفح القرآن الكريم مباشرة من داخل التطبيق
+- 🕐 **مواقيت الصلاة** — عرض مواقيت الصلاة حسب الموقع
+- 📻 **إذاعة القرآن الكريم** — استماع مباشر لإذاعة القرآن الكريم
+- 🤲 **أسماء الله الحسنى ٩٩** — عرض جميع أسماء الله الحسنى
+- 🌙 **عداد رمضان** — عداد تنازلي لشهر رمضان المبارك
+- 💡 **نصيحة اليوم** — نصائح إسلامية متجددة كل 5 دقائق
+- 🌓 **الوضع الليلي/النهاري** — تبديل سهل بين المظهرين
+- 🎨 **7 سمات ألوان** — افتراضي، أزرق، أخضر، بنفسجي، وردي، برتقالي، رمادي داكن
+- 🌐 **ثنائي اللغة** — دعم كامل للعربية والإنجليزية
+- 🔔 **الإشعارات** — إشعارات تذكيرية بمواعيد الأذكار وإشعارات عشوائية للأذكار
+- 👤 **تسجيل الدخول** — مصادقة عبر Google أو رقم الهاتف باستخدام Firebase
+- ☁️ **مزامنة البيانات** — حفظ واستعادة البيانات عبر Firebase Firestore
+- 📱 **PWA** — يعمل كتطبيق ويب تقدمي
+
+### التقنيات
+
+- HTML5، CSS3، JavaScript، Firebase، PWA، Font Awesome، Google Fonts (Tajawal)
+
+### التثبيت
+
+```bash
+git clone https://github.com/ziadamr45/Zad-Ziad.git
+cd Zad-Ziad
+# افتح ملف index.html في المتصفح مباشرة
+# أو استخدم أي خادم محلي مثل Live Server
+```
+
+### تجربة مباشرة
+
+[zad-ziad.vercel.app](https://zad-ziad.vercel.app)
+
+### المساهمة
+
+راجع [CONTRIBUTING.md](CONTRIBUTING.md)
+
+### الرخصة
+
+هذا المشروع يستخدم [رخصة عرض المصدر](LICENSE.md) — © 2026 زياد عمرو
+
+---
+
+## Developer | المطور
+
+**Ziad Amr** (زياد عمرو)
+
 - 🌐 Portfolio: [ziadamrme.vercel.app](https://ziadamrme.vercel.app)
-
-### 📜 License
-
-This project is available as an ongoing charity (Sadaqah Jariyah) — We ask Allah to accept from us and from you righteous deeds.
-
----
-
-<div align="center">
-
-**نسأل الله أن يتقبل منا ومنكم صالح الأعمال 🤍**  
-**We ask Allah to accept from us and from you righteous deeds 🤍**
-
-</div>
+- 💼 GitHub: [github.com/ziadamr45](https://github.com/ziadamr45)
+- 📘 Facebook: [facebook.com/ziad7mr](https://www.facebook.com/ziad7mr)
+- 💬 Telegram: [t.me/ziadamr](https://t.me/ziadamr)
+- 📸 Instagram: [instagram.com/ziadamr455](https://www.instagram.com/ziadamr455/)
+- 🧵 Threads: [threads.com/@ziadamr455](https://www.threads.com/@ziadamr455)
+- 🐦 X (Twitter): [x.com/ziad90216](https://x.com/ziad90216)
+- 🎥 YouTube: [youtube.com/@alhayat_ala_eltarek](https://youtube.com/@alhayat_ala_eltarek)
+- 💼 LinkedIn: [linkedin.com/in/ziad-amr-44633a411](https://www.linkedin.com/in/ziad-amr-44633a411)
+- 📧 Email: ziad90216@gmail.com
 
 ---
-
-<div align="center">
-
-Ziad Amr
-
-</div>
+<p align="center">
+  Powered by <a href="https://github.com/ziadamr45">Ziad Amr</a>
+</p>

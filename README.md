@@ -53,6 +53,8 @@
 | ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat&logo=pwa&logoColor=white) | تطبيق ويب تقدمي وإشعارات |
 | ![Font Awesome](https://img.shields.io/badge/Font_Awesome-528DD7?style=flat&logo=fontawesome&logoColor=white) | الأيقونات |
 | ![Google Fonts](https://img.shields.io/badge/Google_Fonts-4285F4?style=flat&logo=googlefonts&logoColor=white) | الخط العربي (Tajawal) |
+| ![Firestore](https://img.shields.io/badge/Firestore-FFCA28?style=flat&logo=firebase&logoColor=black) | قاعدة البيانات السحابية |
+| ![Service Worker](https://img.shields.io/badge/Service_Worker-FF9900?style=flat) | التخزين المؤقت والعمل بدون اتصال |
 
 ## 📁 هيكل المشروع
 
@@ -153,6 +155,8 @@ Zad-Ziad/
 | ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat&logo=pwa&logoColor=white) | Progressive Web App & notifications |
 | ![Font Awesome](https://img.shields.io/badge/Font_Awesome-528DD7?style=flat&logo=fontawesome&logoColor=white) | Icons |
 | ![Google Fonts](https://img.shields.io/badge/Google_Fonts-4285F4?style=flat&logo=googlefonts&logoColor=white) | Arabic font (Tajawal) |
+| ![Firestore](https://img.shields.io/badge/Firestore-FFCA28?style=flat&logo=firebase&logoColor=black) | Cloud Database |
+| ![Service Worker](https://img.shields.io/badge/Service_Worker-FF9900?style=flat) | Caching & Offline Support |
 
 ### 📁 Project Structure
 

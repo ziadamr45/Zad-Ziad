@@ -20,11 +20,11 @@
 
 ---
 
-## 📖 نبذة عن التطبيق
+## 📖 نبذة
 
 **زاد زياد** هو تطبيق إسلامي شامل يهدف إلى أن يكون صدقة جارية لنشر ذكر الله وتسهيل قراءة القرآن الكريم والأذكار في أي وقت ومكان. صُمم التطبيق بأسلوب بسيط وجذاب يناسب جميع الفئات العمرية، مع مراعاة توفير تجربة مستخدم سلسة ومريحة للعين. اسم "زاد زياد" يحمل معنى عميقاً: الزاد هو ما يتزود به المسلم لآخرته، وزياد هو اسم المطور الذي أسهم في بناء هذا التطبيق ليكون زاداً للمسلمين في كل مكان.
 
-## ✨ المميزات الرئيسية
+## ✨ المميزات
 
 - 🕌 **أذكار الصباح والمساء والنوم** — مجموعة شاملة من الأذكار النبوية الصحيحة مع عداد تفاعلي لكل ذكر وتتبع لحالة الإتمام
 - 📿 **عداد التسبيح** — عداد رقمي بتأثيرات صوتية واهتزاز مع 18 ذكراً مختلفاً للاختيار من بينها
@@ -42,7 +42,7 @@
 - ☁️ **مزامنة البيانات** — حفظ واستعادة البيانات عبر Firebase Firestore
 - 📱 **PWA** — يعمل كتطبيق ويب تقدمي
 
-## 🛠️ التقنيات المستخدمة
+## 🛠️ التقنيات
 
 | التقنية | الاستخدام |
 |---------|-----------|
@@ -79,7 +79,7 @@ Zad-Ziad/
 - إضافة ميزة تتبع قراءة القرآن اليومية
 - دعم لغات إضافية
 
-## 🚀 طريقة التشغيل
+## 🚀 التشغيل
 
 1. قم باستنساخ المستودع:
    ```bash
@@ -88,7 +88,7 @@ Zad-Ziad/
 2. افتح ملف `index.html` في المتصفح مباشرة
 3. أو استخدم أي خادم محلي مثل Live Server
 
-## 👨‍💻 المطور
+### 👨‍💻 المطور
 
 **زياد عمرو (Ziad Amr)**
 
@@ -107,11 +107,11 @@ Zad-Ziad/
 ## English
 
 
-### 📖 About the App
+### About
 
 **Zad Ziad** is a comprehensive Islamic application that aims to be an ongoing charity (Sadaqah Jariyah) for spreading the remembrance of Allah and facilitating the reading of the Holy Quran and Azkar at any time and place. The app is designed with a simple and attractive style suitable for all age groups, with attention to providing a smooth and eye-friendly user experience. The name "Zad Ziad" carries a deep meaning: "Zad" means provision that a Muslim prepares for the Hereafter, and "Ziad" is the name of the developer who contributed to building this app to be provision for Muslims everywhere.
 
-### ✨ Key Features
+### Features
 
 - 🕌 **Morning, Evening & Sleep Azkar** — A comprehensive collection of authentic Prophetic Azkar with an interactive counter for each Zekr and completion tracking
 - 📿 **Tasbih Counter** — Digital counter with sound effects and vibration, with 18 different Dhikr to choose from
@@ -129,7 +129,7 @@ Zad-Ziad/
 - ☁️ **Data Sync** — Save and restore data via Firebase Firestore
 - 📱 **PWA** — Works as a Progressive Web App
 
-### 🛠️ Technologies Used
+### Tech Stack
 
 | Technology | Usage |
 |------------|-------|
@@ -166,7 +166,7 @@ Zad-Ziad/
 - Add daily Quran reading tracker
 - Support additional languages
 
-### 🚀 How to Run
+### Getting Started
 
 1. Clone the repository:
    ```bash

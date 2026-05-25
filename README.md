@@ -88,19 +88,32 @@ Zad-Ziad/
 2. افتح ملف `index.html` في المتصفح مباشرة
 3. أو استخدم أي خادم محلي مثل Live Server
 
-### 👨‍💻 المطور
-
-**زياد عمرو (Ziad Amr)**
-
-- 📱 Telegram: [@ziadamr](https://t.me/ziadamr)
-- 📘 Facebook: [ziad7mr](https://www.facebook.com/ziad7mr)
-- 🎥 YouTube: [@alhayat_ala_eltarek](https://youtube.com/@alhayat_ala_eltarek?si=pcsc_31Kcv3Jym14)
-
 ### 📜 الرخصة
 
 هذا المشروع متاح كصدقة جارية — نسأل الله أن يتقبل منا ومنكم صالح الأعمال.
 
 ---
+
+### 👨‍💻 المطور
+
+**زياد عمرو (Ziad Amr)**
+
+- 🌐 الموقع الشخصي: [ziadamrme.vercel.app](https://ziadamrme.vercel.app)
+- 💼 GitHub: [ziadamr45](https://github.com/ziadamr45)
+- 📘 Facebook: [ziad7mr](https://www.facebook.com/ziad7mr)
+- 💬 Telegram: [@ziadamr](https://t.me/ziadamr)
+- 📸 Instagram: [ziadamr455](https://www.instagram.com/ziadamr455/)
+- 🧵 Threads: [@ziadamr455](https://www.threads.com/@ziadamr455)
+- 🐦 X: [@ziad90216](https://x.com/ziad90216)
+- 🎥 YouTube: [@alhayat_ala_eltarek](https://youtube.com/@alhayat_ala_eltarek?si=pcsc_31Kcv3Jym14)
+- 💼 LinkedIn: [ziad-amr](https://www.linkedin.com/in/ziad-amr-44633a411)
+- 📧 Email: ziad90216@gmail.com
+
+---
+
+<p align="center">
+  مدعوم بواسطة <a href="https://ziadamrme.vercel.app/">زياد عمرو</a>
+</p>
 
 ---
 
@@ -175,6 +188,12 @@ Zad-Ziad/
 2. Open `index.html` in your browser directly
 3. Or use any local server like Live Server
 
+### 📜 License
+
+This project is available as an ongoing charity (Sadaqah Jariyah) — We ask Allah to accept from us and from you righteous deeds.
+
+---
+
 ### 👨‍💻 Developer
 
 **Ziad Amr**
@@ -189,19 +208,6 @@ Zad-Ziad/
 - 🎥 YouTube: [@alhayat_ala_eltarek](https://youtube.com/@alhayat_ala_eltarek?si=pcsc_31Kcv3Jym14)
 - 💼 LinkedIn: [ziad-amr](https://www.linkedin.com/in/ziad-amr-44633a411)
 - 📧 Email: ziad90216@gmail.com
-
-### 📜 License
-
-This project is available as an ongoing charity (Sadaqah Jariyah) — We ask Allah to accept from us and from you righteous deeds.
-
----
-
-<div align="center">
-
-**نسأل الله أن يتقبل منا ومنكم صالح الأعمال 🤍**  
-**We ask Allah to accept from us and from you righteous deeds 🤍**
-
-</div>
 
 ---
 

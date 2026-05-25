@@ -96,7 +96,7 @@ Zad-Ziad/
 
 - 📱 Telegram: [@ziadamr](https://t.me/ziadamr)
 - 📘 Facebook: [ziad7mr](https://www.facebook.com/ziad7mr)
-- 🎥 YouTube: [@alhayat_ala_eltareek](https://youtube.com/@alhayat_ala_eltarek?si=pcsc_31Kcv3Jym14)
+- 🎥 YouTube: [@alhayat_ala_eltareek](https://youtube.com/@alhayat_ala_eltarek?si=pcsc_31Kcv3Jym14?si=pcsc_31Kcv3Jym14)
 
 ### 📜 الرخصة
 
@@ -180,7 +180,7 @@ Zad-Ziad/
 
 - 📱 Telegram: [@ziadamr](https://t.me/ziadamr)
 - 📘 Facebook: [ziad7mr](https://www.facebook.com/ziad7mr)
-- 🎥 YouTube: [@alhayat_ala_eltareek](https://youtube.com/@alhayat_ala_eltarek?si=pcsc_31Kcv3Jym14)
+- 🎥 YouTube: [@alhayat_ala_eltareek](https://youtube.com/@alhayat_ala_eltarek?si=pcsc_31Kcv3Jym14?si=pcsc_31Kcv3Jym14)
 - 🌐 Portfolio: [ziadamrme.vercel.app](https://ziadamrme.vercel.app)
 
 ### 📜 License

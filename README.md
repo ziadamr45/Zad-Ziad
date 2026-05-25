@@ -20,13 +20,11 @@
 
 ---
 
-## 🇸🇦 بالعربية
-
-### 📖 نبذة عن التطبيق
+## 📖 نبذة عن التطبيق
 
 **زاد زياد** هو تطبيق إسلامي شامل يهدف إلى أن يكون صدقة جارية لنشر ذكر الله وتسهيل قراءة القرآن الكريم والأذكار في أي وقت ومكان. صُمم التطبيق بأسلوب بسيط وجذاب يناسب جميع الفئات العمرية، مع مراعاة توفير تجربة مستخدم سلسة ومريحة للعين. اسم "زاد زياد" يحمل معنى عميقاً: الزاد هو ما يتزود به المسلم لآخرته، وزياد هو اسم المطور الذي أسهم في بناء هذا التطبيق ليكون زاداً للمسلمين في كل مكان.
 
-### ✨ المميزات الرئيسية
+## ✨ المميزات الرئيسية
 
 - 🕌 **أذكار الصباح والمساء والنوم** — مجموعة شاملة من الأذكار النبوية الصحيحة مع عداد تفاعلي لكل ذكر وتتبع لحالة الإتمام
 - 📿 **عداد التسبيح** — عداد رقمي بتأثيرات صوتية واهتزاز مع 18 ذكراً مختلفاً للاختيار من بينها
@@ -44,7 +42,7 @@
 - ☁️ **مزامنة البيانات** — حفظ واستعادة البيانات عبر Firebase Firestore
 - 📱 **PWA** — يعمل كتطبيق ويب تقدمي
 
-### 🛠️ التقنيات المستخدمة
+## 🛠️ التقنيات المستخدمة
 
 | التقنية | الاستخدام |
 |---------|-----------|
@@ -56,7 +54,7 @@
 | ![Font Awesome](https://img.shields.io/badge/Font_Awesome-528DD7?style=flat&logo=fontawesome&logoColor=white) | الأيقونات |
 | ![Google Fonts](https://img.shields.io/badge/Google_Fonts-4285F4?style=flat&logo=googlefonts&logoColor=white) | الخط العربي (Tajawal) |
 
-### 📁 هيكل المشروع
+## 📁 هيكل المشروع
 
 ```
 Zad-Ziad/
@@ -68,11 +66,11 @@ Zad-Ziad/
 └── README.md           # هذا الملف
 ```
 
-### 📸 لقطات الشاشة | Screenshots
+## 📸 لقطات الشاشة | Screenshots
 
 ![Zad Ziad Screenshot](screenshot.png)
 
-### 🔮 تحسينات مستقبلية
+## 🔮 تحسينات مستقبلية
 
 - إضافة التاريخ الهجري الديناميكي الذي يتحدث يوميًا
 - توسيع قاعدة النصائح الإسلامية المتجددة
@@ -81,7 +79,7 @@ Zad-Ziad/
 - إضافة ميزة تتبع قراءة القرآن اليومية
 - دعم لغات إضافية
 
-### 🚀 طريقة التشغيل
+## 🚀 طريقة التشغيل
 
 1. قم باستنساخ المستودع:
    ```bash
@@ -90,7 +88,7 @@ Zad-Ziad/
 2. افتح ملف `index.html` في المتصفح مباشرة
 3. أو استخدم أي خادم محلي مثل Live Server
 
-### 👨‍💻 المطور
+## 👨‍💻 المطور
 
 **زياد عمرو (Ziad Amr)**
 
@@ -104,7 +102,10 @@ Zad-Ziad/
 
 ---
 
-## 🇺🇸 In English
+---
+
+## English
+
 
 ### 📖 About the App
 
@@ -178,10 +179,16 @@ Zad-Ziad/
 
 **Ziad Amr**
 
-- 📱 Telegram: [@ziadamr](https://t.me/ziadamr)
-- 📘 Facebook: [ziad7mr](https://www.facebook.com/ziad7mr)
-- 🎥 YouTube: [@alhayat_ala_eltarek](https://youtube.com/@alhayat_ala_eltarek?si=pcsc_31Kcv3Jym14)
 - 🌐 Portfolio: [ziadamrme.vercel.app](https://ziadamrme.vercel.app)
+- 💼 GitHub: [ziadamr45](https://github.com/ziadamr45)
+- 📘 Facebook: [ziad7mr](https://www.facebook.com/ziad7mr)
+- 💬 Telegram: [@ziadamr](https://t.me/ziadamr)
+- 📸 Instagram: [ziadamr455](https://www.instagram.com/ziadamr455/)
+- 🧵 Threads: [@ziadamr455](https://www.threads.com/@ziadamr455)
+- 🐦 X: [@ziad90216](https://x.com/ziad90216)
+- 🎥 YouTube: [@alhayat_ala_eltarek](https://youtube.com/@alhayat_ala_eltarek?si=pcsc_31Kcv3Jym14)
+- 💼 LinkedIn: [ziad-amr](https://www.linkedin.com/in/ziad-amr-44633a411)
+- 📧 Email: ziad90216@gmail.com
 
 ### 📜 License
 
